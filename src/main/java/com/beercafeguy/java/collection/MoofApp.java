@@ -5,7 +5,13 @@ package com.beercafeguy.java.collection;
  * But two objects with same hashCode may not be equal.
  *
  * SO always use same attributes in hashCode and equals.
- * 
+ *
+ * DO not use transient variables in equals and hashCode methods
+ * as these variables are not reproducible after serialization
+ *
+ * Transient variables come back with default value after serialization
+ * rather then original value.
+ *
  */
 public class MoofApp {
     public static void main(String[] args) {
