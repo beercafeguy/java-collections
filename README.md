@@ -1,2 +1,8 @@
 # java-collections
-This is a repository where I keep collection code samples
+
+Collections fall into 4 categories 
+* Ordered
+* Unordered
+* Sorted
+* Unsorted
+
